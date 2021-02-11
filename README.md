@@ -18,30 +18,36 @@ Constructor Function to Instance as many motor shields as needed:
 - `DRV8835MotorShield(unsigned char pin1, unsigned char pin2, unsigned char pin3, unsigned char pin4, boolean flip1, boolean flip2)
 Use Following Constructor Function Syntax to Instance as many motor shields as needed:
 
-#include <DRV8835MotorShield.h>
+#include <DRV8835MotorShield.h> <br>
 
-DRV8835MotorShield m1(5,4,3,2,false,false);
-DRV8835MotorShield m2(6,7,8,9,false,true);
+DRV8835MotorShield m1(5,4,3,2,false,false); <br>
+DRV8835MotorShield m2(6,7,8,9,false,true);<br>
+<br>
+<br>
+<br>
+Note (Assignnments are as follows for above examples): <br>
+<br>
+DRV8835MotorShield m1(5,4,3,2,false,false);<br>
+| Pin| Description |
+| --- | --- |
+| 5 | Aph |
+| 4 | Aen |
+| 3 | Bph |
+| 2 | Ben |
+| Motor1 Flip | false |
+| Motor2 Flip | false |
 
-
-Note (Assignnments are as follows for above examples): 
-
-DRV8835MotorShield m1(5,4,3,2,false,false);
-5 - Aph
-4 - Aen
-3 - Bph
-2 - Ben
-Motor1 Flip = false
-Motor2 Flip = false
-
-DRV8835MotorShield m2(6,7,8,9,false,true);
-6 - Aph
-7 - Aen
-8 - Bph
-9 - Ben
-Motor1 Flip = false
-Motor2 Flip = true
-
+<br>
+DRV8835MotorShield m2(6,7,8,9,false,true);<br>
+| Pin| Description |
+| --- | --- |
+| 6 | Aph |
+| 7 | Aen |
+| 8 | Bph |
+| 9 | Ben |
+| Motor1 Flip | false |
+| Motor2 Flip | true |
+<br>
 
 ## Getting started
 
