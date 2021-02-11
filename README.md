@@ -21,13 +21,13 @@ Use Following Constructor Function Syntax to Instance as many motor shields as n
 #include <DRV8835MotorShield.h> <br>
 
 DRV8835MotorShield m1(5,4,3,2,false,false); <br>
+
 DRV8835MotorShield m2(6,7,8,9,false,true);<br>
-<br>
-<br>
-<br>
+
 Note (Assignnments are as follows for above examples): <br>
-<br>
+
 DRV8835MotorShield m1(5,4,3,2,false,false);<br>
+
 | Pin| Description |
 | --- | --- |
 | 5 | Aph |
@@ -38,7 +38,9 @@ DRV8835MotorShield m1(5,4,3,2,false,false);<br>
 | Motor2 Flip | false |
 
 <br>
+
 DRV8835MotorShield m2(6,7,8,9,false,true);<br>
+
 | Pin| Description |
 | --- | --- |
 | 6 | Aph |
@@ -47,6 +49,7 @@ DRV8835MotorShield m2(6,7,8,9,false,true);<br>
 | 9 | Ben |
 | Motor1 Flip | false |
 | Motor2 Flip | true |
+
 <br>
 
 ## Getting started
